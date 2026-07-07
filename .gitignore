@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Sensitive local configurations
+config.json
+
+# User wallets, private/public keys, derived addresses, and QR code files
+wallets/
+
+# Temporary or raw transaction outputs (in case they are written to the root)
+tx_raw.txt
+tx_signed.txt
+*.png
